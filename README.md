@@ -1,5 +1,25 @@
-# Vue 3 + Vite
+1. Deskripsi Studi Kasus
+Aplikasi Garuda Kuliner adalah platform pemesanan makanan online berbasis web yang memungkinkan pengguna untuk:
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Menjelajahi dan memesan menu makanan
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+Mengelola keranjang dan melihat status pengiriman
+
+Mengakses informasi profil
+
+Menghubungi restoran via form
+
+Bagi admin, tersedia fitur kelola data menu makanan
+
+Aplikasi dibangun menggunakan Vue.js, Pinia untuk state management, dan json-server sebagai REST API lokal.
+
+2. Daftar Fitur Sistem
+1	Lihat Menu Makanan :	Menampilkan daftar semua makanan/minuman
+2	Filter Menu	: Menyaring berdasarkan kategori
+3	Tambah ke Keranjang :	Menambahkan makanan ke dalam keranjang
+4	Checkout :	Menyelesaikan pesanan
+5	Informasi Pengiriman :	Menampilkan status pengiriman dari pesanan pengguna
+6	Manajemen Menu (Admin) :	Tambah, edit, dan hapus menu makanan
+7	Hubungi Kami :	Formulir untuk mengirim pesan ke restoran
+8	Profil : Pengguna	Menampilkan dan mengedit data pengguna
+
